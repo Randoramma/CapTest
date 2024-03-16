@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D057738F2BA4FD5400BC928E /* CapgeminiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057738E2BA4FD5400BC928E /* CapgeminiApp.swift */; };
+		D05773912BA4FD5400BC928E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05773902BA4FD5400BC928E /* ContentView.swift */; };
+		D05773932BA4FD5600BC928E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05773922BA4FD5600BC928E /* Assets.xcassets */; };
+		D05773962BA4FD5600BC928E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05773952BA4FD5600BC928E /* Preview Assets.xcassets */; };
+		D05773B92BA4FE1A00BC928E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05773B82BA4FE1A00BC928E /* Constants.swift */; };
+		D05773BD2BA500FD00BC928E /* FetchImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05773BC2BA500FD00BC928E /* FetchImageModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D057739C2BA4FD5600BC928E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05773832BA4FD5400BC928E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D057738A2BA4FD5400BC928E;
+			remoteInfo = Capgamani;
+		};
+		D05773A62BA4FD5600BC928E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05773832BA4FD5400BC928E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D057738A2BA4FD5400BC928E;
+			remoteInfo = Capgamani;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D057738B2BA4FD5400BC928E /* Capgemini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capgemini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D057738E2BA4FD5400BC928E /* CapgeminiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CapgeminiApp.swift; path = Capgemini/CapgeminiApp.swift; sourceTree = "<group>"; };
+		D05773902BA4FD5400BC928E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Capgemini/ContentView.swift; sourceTree = "<group>"; };
+		D05773922BA4FD5600BC928E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Capgemini/Assets.xcassets; sourceTree = "<group>"; };
+		D05773952BA4FD5600BC928E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D057739B2BA4FD5600BC928E /* CapgeminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapgeminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05773A52BA4FD5600BC928E /* CapgeminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapgeminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05773B82BA4FE1A00BC928E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Capgemini/Constants.swift; sourceTree = "<group>"; };
+		D05773BC2BA500FD00BC928E /* FetchImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FetchImageModel.swift; path = Capgemini/FetchImageModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05773882BA4FD5400BC928E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05773982BA4FD5600BC928E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05773A22BA4FD5600BC928E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D05773822BA4FD5400BC928E = {
+			isa = PBXGroup;
+			children = (
+				D057738D2BA4FD5400BC928E /* Capgemini */,
+				D057738C2BA4FD5400BC928E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D057738C2BA4FD5400BC928E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D057738B2BA4FD5400BC928E /* Capgemini.app */,
+				D057739B2BA4FD5600BC928E /* CapgeminiTests.xctest */,
+				D05773A52BA4FD5600BC928E /* CapgeminiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D057738D2BA4FD5400BC928E /* Capgemini */ = {
+			isa = PBXGroup;
+			children = (
+				D057738E2BA4FD5400BC928E /* CapgeminiApp.swift */,
+				D05773902BA4FD5400BC928E /* ContentView.swift */,
+				D05773922BA4FD5600BC928E /* Assets.xcassets */,
+				D05773942BA4FD5600BC928E /* Preview Content */,
+				D05773B82BA4FE1A00BC928E /* Constants.swift */,
+				D05773BC2BA500FD00BC928E /* FetchImageModel.swift */,
+			);
+			name = Capgemini;
+			sourceTree = "<group>";
+		};
+		D05773942BA4FD5600BC928E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D05773952BA4FD5600BC928E /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "Capgemini/Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D057738A2BA4FD5400BC928E /* Capgemini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05773AF2BA4FD5600BC928E /* Build configuration list for PBXNativeTarget "Capgemini" */;
+			buildPhases = (
+				D05773872BA4FD5400BC928E /* Sources */,
+				D05773882BA4FD5400BC928E /* Frameworks */,
+				D05773892BA4FD5400BC928E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Capgemini;
+			productName = Capgamani;
+			productReference = D057738B2BA4FD5400BC928E /* Capgemini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D057739A2BA4FD5600BC928E /* CapgeminiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05773B22BA4FD5600BC928E /* Build configuration list for PBXNativeTarget "CapgeminiTests" */;
+			buildPhases = (
+				D05773972BA4FD5600BC928E /* Sources */,
+				D05773982BA4FD5600BC928E /* Frameworks */,
+				D05773992BA4FD5600BC928E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D057739D2BA4FD5600BC928E /* PBXTargetDependency */,
+			);
+			name = CapgeminiTests;
+			productName = CapgamaniTests;
+			productReference = D057739B2BA4FD5600BC928E /* CapgeminiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D05773A42BA4FD5600BC928E /* CapgeminiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05773B52BA4FD5600BC928E /* Build configuration list for PBXNativeTarget "CapgeminiUITests" */;
+			buildPhases = (
+				D05773A12BA4FD5600BC928E /* Sources */,
+				D05773A22BA4FD5600BC928E /* Frameworks */,
+				D05773A32BA4FD5600BC928E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05773A72BA4FD5600BC928E /* PBXTargetDependency */,
+			);
+			name = CapgeminiUITests;
+			productName = CapgamaniUITests;
+			productReference = D05773A52BA4FD5600BC928E /* CapgeminiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05773832BA4FD5400BC928E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D057738A2BA4FD5400BC928E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D057739A2BA4FD5600BC928E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D057738A2BA4FD5400BC928E;
+					};
+					D05773A42BA4FD5600BC928E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D057738A2BA4FD5400BC928E;
+					};
+				};
+			};
+			buildConfigurationList = D05773862BA4FD5400BC928E /* Build configuration list for PBXProject "Capgemini" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05773822BA4FD5400BC928E;
+			productRefGroup = D057738C2BA4FD5400BC928E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D057738A2BA4FD5400BC928E /* Capgemini */,
+				D057739A2BA4FD5600BC928E /* CapgeminiTests */,
+				D05773A42BA4FD5600BC928E /* CapgeminiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05773892BA4FD5400BC928E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05773962BA4FD5600BC928E /* Preview Assets.xcassets in Resources */,
+				D05773932BA4FD5600BC928E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05773992BA4FD5600BC928E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05773A32BA4FD5600BC928E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05773872BA4FD5400BC928E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05773BD2BA500FD00BC928E /* FetchImageModel.swift in Sources */,
+				D05773912BA4FD5400BC928E /* ContentView.swift in Sources */,
+				D057738F2BA4FD5400BC928E /* CapgeminiApp.swift in Sources */,
+				D05773B92BA4FE1A00BC928E /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05773972BA4FD5600BC928E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05773A12BA4FD5600BC928E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D057739D2BA4FD5600BC928E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D057738A2BA4FD5400BC928E /* Capgemini */;
+			targetProxy = D057739C2BA4FD5600BC928E /* PBXContainerItemProxy */;
+		};
+		D05773A72BA4FD5600BC928E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D057738A2BA4FD5400BC928E /* Capgemini */;
+			targetProxy = D05773A62BA4FD5600BC928E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D05773AD2BA4FD5600BC928E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D05773AE2BA4FD5600BC928E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05773B02BA4FD5600BC928E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Capgemini/Preview Content\"";
+				DEVELOPMENT_TEAM = QWRJC78833;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RandyMclain.Capgamani;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D05773B12BA4FD5600BC928E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Capgemini/Preview Content\"";
+				DEVELOPMENT_TEAM = QWRJC78833;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RandyMclain.Capgamani;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D05773B32BA4FD5600BC928E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWRJC78833;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RandyMclain.CapgamaniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capgemini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Capgemini";
+			};
+			name = Debug;
+		};
+		D05773B42BA4FD5600BC928E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWRJC78833;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RandyMclain.CapgamaniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capgemini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Capgemini";
+			};
+			name = Release;
+		};
+		D05773B62BA4FD5600BC928E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWRJC78833;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RandyMclain.CapgamaniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Capgamani;
+			};
+			name = Debug;
+		};
+		D05773B72BA4FD5600BC928E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWRJC78833;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RandyMclain.CapgamaniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Capgamani;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05773862BA4FD5400BC928E /* Build configuration list for PBXProject "Capgemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05773AD2BA4FD5600BC928E /* Debug */,
+				D05773AE2BA4FD5600BC928E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05773AF2BA4FD5600BC928E /* Build configuration list for PBXNativeTarget "Capgemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05773B02BA4FD5600BC928E /* Debug */,
+				D05773B12BA4FD5600BC928E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05773B22BA4FD5600BC928E /* Build configuration list for PBXNativeTarget "CapgeminiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05773B32BA4FD5600BC928E /* Debug */,
+				D05773B42BA4FD5600BC928E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05773B52BA4FD5600BC928E /* Build configuration list for PBXNativeTarget "CapgeminiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05773B62BA4FD5600BC928E /* Debug */,
+				D05773B72BA4FD5600BC928E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05773832BA4FD5400BC928E /* Project object */;
+}
